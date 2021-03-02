@@ -15,7 +15,7 @@ namespace Oefening5
                 Random random = new Random();
                 int getal1, getal2;
                 getal1 = random.Next(1, 7);
-
+                System.Threading.Thread.Sleep(100);
                 getal2 = random.Next(1, 7);
                 Console.WriteLine(getal1);
                 Console.WriteLine(getal2);
