@@ -11,6 +11,7 @@ namespace OefeningRandom
         static void Main(string[] args)
         {
 
+
             Random random = new Random();
             int getal1 = random.Next(1,6);
             Console.WriteLine(getal1);
@@ -26,8 +27,7 @@ namespace OefeningRandom
             {
                 Console.WriteLine("fout getal");
             }
-
-
+          
         }
     }
 }
